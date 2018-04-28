@@ -1,0 +1,7 @@
+---
+Name: loginlogoutroutes
+After: framework/_config/routes#coreroutes
+---
+SilverStripe\Control\Director:
+  rules:
+    'logout': Suilven\LogoutHelper\Controller\LogoutController
